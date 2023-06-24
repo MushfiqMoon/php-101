@@ -4,9 +4,9 @@
     <div class="row">
         <div class="col-md-12">
             <a href="/add_user.php" class="btn btn-primary my-2">Add New</a>
-            <table class="table table-borderless my-4">
+            <table class="table table-borderless table-striped my-4">
                 <thead>
-                    <tr>
+                    <tr class="border-bottom border-primary-subtle">
                         <th scope="col">#</th>
                         <th scope="col">Name</th>
                         <th scope="col">Email</th>
@@ -15,7 +15,7 @@
                         <th scope="col">Action</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
 
                     <?php
                     $i = 1;
@@ -34,7 +34,6 @@
                             <td>" . $row['name'] . "</td>
                             <td>" . $row['email'] . "</td>
                             <td>" . $row['password'] . "</td>
-                            <td>" . $row['phone'] . "</td>
                             <td>" . $row['phone'] . "</td>";
                             ?>
                             <td>

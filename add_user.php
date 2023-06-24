@@ -58,7 +58,8 @@ if (isset($_POST['submit'])) {
                     <label for="floatingPassword">Password</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input required type="text" class="form-control" id="floatingPhone" name="phone" placeholder="Phone">
+                    <input required type="text" class="form-control" id="floatingPhone" name="phone"
+                        placeholder="Phone">
                     <label for="floatingPhone">Phone</label>
                 </div>
                 <button type="submit" name="submit" class="btn btn-primary">Submit</button>
